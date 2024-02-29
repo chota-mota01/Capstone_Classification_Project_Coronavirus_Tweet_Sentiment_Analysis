@@ -84,7 +84,7 @@ The accuracy score and classification report are vital metrics that can greatly 
 
 # Conclusion
 
-The primary objective is to leverage machine learning techniques to accurately classify the sentiment conveyed in COVID-19 tweets. We focused our analysis solely on the "OriginalTweet" and "Sentiment" columns, as columns like "UserName" and "ScreenName" do not provide meaningful insights for our analysis. These two columns contain the primary data we need to analyze sentiments expressed in the tweets, thereby streamlining our data processing and analysis pipeline.
+The primary objective is to leverage machine learning techniques to accurately classify the sentiment conveyed in COVID-19 tweets. We focused our analysis solely on the "OriginalTweet" and "Sentiment" columns, as columns like "UserName" and "ScreenName" do not provide meaningful insights for our analysis. These two columns contain the primary data we need to analyze sentiments expressed in the tweets, thereby streamlining our data processing and analysis pipeline. We used stemming and lemmatizing for text normalization.
 
 In our analysis of COVID-19 tweets, we explored five machine learning models, including Logistic Regression, Naive Bayes Classifier, Random Forest, KNN, and Decision Tree. Despite implementing grid search cross-validation to optimize the models, we did not observe significant improvements in the test accuracy across all models.
 
